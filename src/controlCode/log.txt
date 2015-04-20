@@ -1,0 +1,5 @@
+april 24th, 2012
+
+6:00pm
+
+okay, here's the latest, basically, added the MATLAB code used to process data (why not?), and also the updated "phiDetermine" function in subFuncs.c that uses the mapping, approximately linear, between phi and zoom

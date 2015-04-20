@@ -1,0 +1,4 @@
+PROJECT( Tracker_proj )
+FIND_PACKAGE( OpenCV REQUIRED )
+ADD_EXECUTABLE( Tracker cv_Track.cxx )
+TARGET_LINK_LIBRARIES( Tracker ${OpenCV_LIBS} )

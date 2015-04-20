@@ -1,0 +1,14 @@
+bbR.txt describes the coordinates of the right blackboard in (P, T)
+
+top right corner pan: 10000
+top right corner tilt: 10000
+
+top left corner pan: 10000
+top left corner tilt: 10000
+
+bottom left corner pan: 10000
+bottom left corner tilt: 10000
+
+bottom right corner pan: 10000
+bottom right corner tilt: 10000
+

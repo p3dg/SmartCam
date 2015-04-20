@@ -1,0 +1,56 @@
+{
+  "name" : "Senior Design Lab Test",
+  "states" : [ 
+    { 
+      "name" : "Left",
+      "pan" : -20,
+      "tilt" : 1,
+      "zoom" : 6691
+    },
+    { 
+      "name" : "Left-Middle",
+      "pan" : -8,
+      "tilt" : 0,
+      "zoom" : 4583
+    },
+    { 
+      "name" : "Middle-Left",
+      "pan" : -3,
+      "tilt" : 0,
+      "zoom" : 4583
+    },
+    { 
+      "name" : "Middle",
+      "pan" : 0,
+      "tilt" : 0,
+      "zoom" : 6691
+    },
+    { 
+      "name" : "Middle-Right",
+      "pan" : 3,
+      "tilt" : 0,
+      "zoom" : 4583
+    },
+    { 
+      "name" : "Right-Middle",
+      "pan" : 3,
+      "tilt" : 0,
+      "zoom" : 4583
+    },
+    { 
+      "name" : "Right",
+      "pan" : 20,
+      "tilt" : 1,
+      "zoom" : 6691
+    }
+  ],
+  "state_jump" : [
+    {"name" : "Left", "left" : null, "right" : "Left-Middle"},
+    {"name" : "Left-Middle", "left" : "Left", "right" : "Middle"},
+    {"name" : "Middle-Left", "left" : "Left", "right" : "Middle"},
+    {"name" : "Middle", "left" : "Middle-Left", "right" : "Middle-Right"},
+    {"name" : "Middle-Right", "left" : "Middle", "right" : "Right"},
+    {"name" : "Right-Middle", "left" : "Middle", "right" : "Right"},
+    {"name" : "Right", "left" : "Right-Middle", "right" : null}
+  ]
+}

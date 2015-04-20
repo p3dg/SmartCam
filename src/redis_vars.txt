@@ -1,0 +1,12 @@
+ 1) "vision:movement:controller"
+ 2) "vision:movement:fsm"
+ 3) "visca:camera:moving"
+ 4) "vision:movement:states"
+ 5) "vision:movement:position"
+ 6) "visca:command"
+ 7) "visca:camera:tilt"
+ 8) "visca:camera:pan"
+ 9) "vision:movement:roomname"
+10) "vision:image"
+11) "visca:camera:zoom"
+

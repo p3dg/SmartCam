@@ -1,0 +1,25 @@
+SPEAKER BUFFERS (values in degrees)
+
+speaker buffer (pan): 10
+speaker buffer (tilt, top): 5
+speaker buffer (tilt, bottom): 5
+
+
+
+
+ROOM COORDINATES (values in degrees)
+
+top right corner(pan): 10000
+top right corner(tilt): 10000
+
+top left corner(pan): 10000
+top left corner(tilt): 10000
+
+bottom left corner(pan): 10000
+bottom left corner(tilt): 10000
+
+bottom right corner(pan): 10000
+bottom right corner(tilt): 10000
+
+
+
